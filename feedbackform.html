@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>feedback</title>
+</head>
+<body>
+    <form action="feedback.html" method="POST">
+        <h1>Login details</h1>
+        <br>
+        <label for="loginid">Login id</label>
+        <input type="text" value="gym" readonly id="loginid" name="loginid">
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <input type="password"  id="password" name="password">
+
+    </form>
+    <form action="">
+        <h1>Feedback</h1>
+        <p>Please check all the workout that apply on you:</p>
+        <br>
+        <label for="workout">workouts</label>
+        <br>
+        <label for="back">Back</label>
+        <input type="checkbox" required id="back" name="back">
+        <br>
+        <label for="biceps">Biceps</label>
+        <input type="checkbox" id="biceps" name="biceps">
+        <br>
+        <label for="cardio">Cardio</label>
+        <input type="checkbox" id="cardio" name="cadio">
+        <br>
+        <label for="legs">Legs</label>
+        <input type="checkbox" id="legs" name="legs">
+        <br>
+        <p>Rate our training:</p>
+        <br>
+        <label for="">Experience</label>
+        <br>
+        <label for="veryuseful">Very useful</label>
+        <input type="radio" id="veryuseful" name="veryuseful">
+        <br>
+        <label for="useful">Useful</label>
+        <input type="radio" id="useful" name="useful">
+        <br>
+        <label for="notuse">Not Useful</label>
+        <input type="radio" id="notuse" name="notuse">
+        <br>
+        <br>
+        <h2>suggestion</h2>
+        <label for="ys">Your suggestion</label>
+        <textarea name="ys" id="ys" cols="20" rows="4"> 
+        </textarea>
+        <br>
+        <br>
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,54 @@
+/* div {
+    height: 100vh;
+    width: 100%;
+    background-image: url(j.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+} */
+
+h1,
+h2 {
+    color: red;
+}
+
+#id:focus {
+    background-color: brown;
+}
+
+#pd:focus {
+    background-color: brown;
+}
+
+#cpd:focus {
+    background-color: brown;
+}
+
+#fn:focus {
+    background-color: chartreuse;
+}
+
+#mn:focus {
+    background-color: yellow;
+}
+
+#ln:focus {
+    background-color: yellowgreen;
+}
+
+#mobile:focus {
+    background-color: blue;
+}
+
+#mail:focus {
+    background-color: blueviolet;
+}
+
+#nn:focus {
+    background-color: violet;
+}
+
+h1:hover {
+    color: black;
+    background-color: blue;
+}
